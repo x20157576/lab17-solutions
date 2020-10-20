@@ -8,13 +8,7 @@ class Greetings:
         return 'Hello {}!'.format(self.name)
 
 
-
-
-
 print('What\'s your name?')
 n = input()
 g = Greetings(n)
 print(g.say_hi())
-
-
-
